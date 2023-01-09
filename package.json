@@ -1,0 +1,39 @@
+{
+  "name": "dark-teal-theme",
+  "displayName": "Dark Teal Theme",
+  "description": "A Dark Teal Theme for vscode based on the Bearded Theme Black & Diamond",
+  "version": "0.0.1",
+  "publisher": "brianlewyn",
+  "icon": "img/brianlewyn.png",
+  "author": {"name": "Brayan Mejía Mora"},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brianlewyn/vscode_dark-teal-theme"
+  },
+  "homepage": "https://github.com/brianlewyn/vscode_dark-teal-theme/blob/main/README.md",
+  "galleryBanner": {
+    "color": "#090B10",
+    "theme": "dark"
+  },
+  "keywords": [
+    "Themes",
+    "brianlewyn",
+    "Dark Teal Theme",
+    "dark teal theme"
+  ],
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Teal Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-teal-theme.json"
+      }
+    ]
+  }
+}
