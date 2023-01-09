@@ -1,16 +1,22 @@
-# dark-teal-theme README
+# Dark Tael Theme
 
-## Working with Markdown
+Hello! It's the second time that I make an extension for vscode. I decided to do this because although there are very good themes I never like the color of the typography, that's why I made the theme **brianlewyn-dark-theme** thought to be used with languages like html, css, js, go & cpp.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+For the background, I was inspired by the [Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme) extension & the [Bearded Theme](https://marketplace.visualstudio.com/items?itemName=BeardedBear.beardedtheme) Black & Diamond
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## Screenshot
 
-## For more information
+### HTML
+![HTML screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/imag/HTML.png)
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+### CSS
+![CSS screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/imag/CSS.png)
 
-**Enjoy!**
+### JS
+![JS screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/imag/JS.png)
+
+### GO
+![GO screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/imag/GO.png)
+
+### CPP
+![CPP screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/imag/CPP.png)
