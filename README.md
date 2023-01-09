@@ -7,16 +7,16 @@ For the background, I was inspired by the [Material Theme](https://marketplace.v
 ## Screenshot
 
 ### HTML
-![HTML screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/imag/HTML.png)
+![HTML screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/img/HTML.png)
 
 ### CSS
-![CSS screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/imag/CSS.png)
+![CSS screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/img/CSS.png)
 
 ### JS
-![JS screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/imag/JS.png)
+![JS screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/img/JS.png)
 
 ### GO
-![GO screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/imag/GO.png)
+![GO screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/img/GO.png)
 
 ### CPP
-![CPP screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/imag/CPP.png)
+![CPP screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/img/CPP.png)
