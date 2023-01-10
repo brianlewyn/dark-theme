@@ -123,7 +123,7 @@
 		"editor.inactiveSelectionBackground": "#80CBC470",
 	
 		//? Editor word highlight colors
-		"editor.wordHighlightBackground": "#EF6B73",
+		"editor.wordHighlightBackground": "#4B526D80",
 		"editor.wordHighlightStrongBackground": "#80CBC470",
 	
 		//? Editor find/replace colors
