@@ -57,9 +57,11 @@
 		//? Lists and trees
 		"list.activeSelectionForeground": "#A6ACCD",
 		"list.focusForeground": "#A6ACCD",
+		"list.focusBackground": "#A6ACCD30",
 		"list.highlightForeground": "#80CBC4",
 		"list.hoverForeground": "#A6ACCD",
 		"list.inactiveSelectionForeground": "#A6ACCD",
+		"list.activeSelectionBackground": "#A6ACCD30",
 		"list.invalidItemForeground": "#EF6B73",
 		"list.errorForeground": "#EF6B73",
 		"list.warningForeground": "#FFD580",
@@ -315,7 +317,7 @@
 		"gitDecoration.modifiedResourceForeground": "#BAC7FB",
 		"gitDecoration.deletedResourceForeground": "#EF6B73",
 		"gitDecoration.untrackedResourceForeground": "#BAE67E",
-		"gitDecoration.ignoredResourceForeground": "#4B526D90",
+		"gitDecoration.ignoredResourceForeground": "#A6ACCD7F",
 		"gitDecoration.conflictingResourceForeground": "#EF6B73",
 	
 		//? Settings Editor colors
