@@ -14,7 +14,7 @@ To use JetBrains Mono font in vscode, you just need to download the file from th
 # settings.json file
 {
    "editor.fontFamily": "JetBrains Mono",
-	"editor.fontWeight" : "400", 
+   "editor.fontWeight" : "400", 
    # ^ this is the weight of my favorite font
 }
 ```
