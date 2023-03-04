@@ -340,70 +340,70 @@
 	"tokenColors": [
 		//! General
 		{
-			"name": "Gn light-yellow",
+			"name": "General: light-yellow",
 			"scope": "string",
 			"settings": {
 				"foreground": "#CE8E"
 			}
 		},
 		{
-			"name": "Gn bluish-gray",
+			"name": "General: bluish-gray",
 			"scope": "punctuation",
 			"settings": {
 				"foreground": "#678E"
 			}
 		},
 		{
-			"name": "Gn white",
+			"name": "General: white",
 			"scope": "constant.language, constant.numeric",
 			"settings": {
 				"foreground": "#FFFE"
 			}
 		},
 		{
-			"name": "Gn red",
+			"name": "General: red",
 			"scope": "variable",
 			"settings": {
 				"foreground": "#F48E"
 			}
 		},
 		{
-			"name": "Gn bluish-green",
+			"name": "General: bluish-green",
 			"scope": "keyword.other",
 			"settings": {
 				"foreground": "#2FDE"
 			}
 		},
 		{
-			"name": "Gn golden",
+			"name": "General: golden",
 			"scope": "keyword.control",
 			"settings": {
 				"foreground": "#FB2"
 			}
 		},
 		{
-			"name": "blue",
+			"name": "General: blue",
 			"scope": "entity.name.function, support.function",
 			"settings": {
 				"foreground": "#2AF"
 			}
 		},
 		{
-			"name": "Gn-lavender",
+			"name": "General: rose-lavender",
 			"scope": "storage.type",
 			"settings": {
 				"foreground": "#F5F"
 			}
 		},
 		{
-			"name": "Gn light-turquoise",
+			"name": "General: light-turquoise",
 			"scope": "support.type",
 			"settings": {
 				"foreground": "#7DF"
 			}
 		},
 		{
-			"name": "Gn dark-lavender",
+			"name": "General: dark-lavender",
 			"scope": "comment, punctuation.definition.comment",
 			"settings": {
 				"foreground": "#AACC",
@@ -413,35 +413,35 @@
 
 		//! HTML
 		{
-			"name": "HTML text",
+			"name": "HTML: text",
 			"scope": "text.html",
 			"settings": {
 				"foreground": "#FFF"
 			}
 		},
 		{
-			"name": "HTML tag outer",
+			"name": "HTML: tag outer",
 			"scope": "meta.tag, punctuation.definition.tag, punctuation.separator.key-value.html",
 			"settings": {
 				"foreground": "#567"
 			}
 		},
 		{
-			"name": "HTML tag inner",
+			"name": "HTML: tag inner",
 			"scope": "entity.name.tag",
 			"settings": {
 				"foreground": "#F7B"
 			}
 		},
 		{
-			"name": "HTML tag attribute",
+			"name": "HTML: tag attribute",
 			"scope": "entity.other.attribute-name",
 			"settings": {
 				"foreground": "#CDD"
 			}
 		},
 		{
-			"name": "HTML tag attribute inner",
+			"name": "HTML: tag attribute inner",
 			"scope": "string.quoted.double.html, string.quoted.single.html",
 			"settings": {
 				"foreground": "#7DF"
@@ -450,21 +450,21 @@
 
 		//! CSS
 		{
-			"name": "CSS selector",
+			"name": "CSS: selector",
 			"scope": "entity.other.attribute-name.id, entity.other.attribute-name.class, source.css entity.name.tag, punctuation.definition.entity.css",
 			"settings": {
 				"foreground": "#F7B"
 			}
 		},
 		{
-			"name": "CSS properties",
+			"name": "CSS: properties",
 			"scope": "support.type.property-name.css",
 			"settings": {
 				"foreground": "#7DF"
 			}
 		},
 		{
-			"name": "CSS value",
+			"name": "CSS: value",
 			"scope": "meta.property-value.css, support.constant.property-value.css",
 			"settings": {
 				"foreground": "#FFF"
@@ -473,49 +473,49 @@
 
 		//! JS
 		{
-			"name": "JS storage type",
+			"name": "JS: storage type",
 			"scope": "storage.type.js",
 			"settings": {
 				"foreground": "#2FDE"
 			}
 		},
 		{
-			"name": "JS strings",
+			"name": "JS: strings",
 			"scope": "punctuation.definition.string.begin.js, string.quoted.single.js, punctuation.definition.string.end.js, punctuation.definition.string.template.begin.js, punctuation.definition.string.template.end.js",
 			"settings": {
 				"foreground": "#C3E99D"
 			}
 		},
 		{
-			"name": "JS name function",
+			"name": "JS: name function",
 			"scope": "entity.name.function.js",
 			"settings": {
 				"foreground": "#2AF"
 			}
 		},
 		{
-			"name": "JS property",
+			"name": "JS: property",
 			"scope": "variable.other.property.js, variable.other.object.property.js",
 			"settings": {
 				"foreground": "#F82"
 			}
 		},
 		{
-			"name": "JS name variable",
+			"name": "JS: name variable",
 			"scope": "variable.other.constant.js, variable.other.readwrite.js, variable.other.object.js",
 			"settings": {
 				"foreground": "#F48"
 			}
 		},
 		{
-			"name": "JS control",
+			"name": "JS: control",
 			"scope": "keyword.control.conditional.js, keyword.control.switch.js, keyword.control.loop.js, keyword.control.flow.js, storage.type.function.arrow.js",
 			"settings": {
 				"foreground": "#FB2"
 			}
 		},
 		{
-			"name": "JS forEach:Variable",
+			"name": "JS: forEach:Variable",
 			"scope": "variable.parameter.js",
 			"settings": {
 				"foreground": "#F5F"
@@ -524,14 +524,14 @@
 		
 		//! C++
 		{
-			"name": "#include",
+			"name": "C++: #include",
 			"scope": "punctuation.definition.directive.cpp",
 			"settings": {
 				"foreground": "#FB2"
 			}
 		},
 		{
-			"name": "<name.h>",
+			"name": "C++: <name.h>",
 			"scope": [
 				"punctuation.definition.string.begin.cpp",
 				"punctuation.definition.string.end.cpp"
@@ -541,7 +541,7 @@
 			}
 		},
 		{
-			"name": "data type (include string)",
+			"name": "C++: data type (include string)",
 			"scope": [
 				"storage.type.built-in.primitive.cpp", 
 				"support.type"
@@ -551,14 +551,14 @@
 			}
 		},
 		{
-			"name": "ClassName",
+			"name": "C++: ClassName",
 			"scope": "support.type",
 			"settings": {
 				"foreground": "#F72"
 			}
 		},
 		{
-			"name": "punctuation",
+			"name": "C++: punctuation",
 			"scope": [
 				"constant.numeric.decimal.cpp",
 				"keyword.operator.arithmetic.cpp", 
@@ -570,7 +570,7 @@
 			}
 		},
 		{
-			"name": "<<puntation>>",
+			"name": "C++: <<puntation>>",
 			"scope": [
 				"entity.name.function.operator.cpp",
 				"entity.name.function.operator.member.cpp"
@@ -580,51 +580,51 @@
 			}
 		},
 
-		//! Go
+		//! GO:
 		{
-			"name": "Go keyword",
+			"name": "GO: keyword",
 			"scope": "keyword.package.go, keyword.import.go, keyword.var.go, keyword.const.go, keyword.type.go, keyword.struct.go, keyword.interface.go, keyword.function.go, keyword.operator.address.go",
 			"settings": {
 				"foreground": "#2FDE"
 			}
 		},
 		{
-			"name": "Go assignment",
+			"name": "GO: assignment",
 			"scope": "variable.other.assignment.go, variable.other.declaration.go",
 			"settings": {
 				"foreground": "#F48"
 			}
 		},
 		{
-			"name": "Go support",
+			"name": "GO: support",
 			"scope": "support.function.go",
 			"settings": {
 				"foreground": "#2AF"
 			}
 		},
 		{
-			"name": "Go control & sign",
+			"name": "GO: control & sign",
 			"scope": "keyword.control.go, keyword.operator.assignment.go, constant.language.go, keyword.operator.arithmetic.go, keyword.operator.comparison.go",
 			"settings": {
 				"foreground": "#FB2"
 			}
 		},
 		{
-			"name": "Go method",
+			"name": "GO: method",
 			"scope": "entity.name.function.go",
 			"settings": {
 				"foreground": "#2AF"
 			}
 		},
 		{
-			"name": "Go type",
+			"name": "GO: type",
 			"scope": "entity.name.type.go, storage.type.string.go, storage.type.error.go, storage.type.numeric.go",
 			"settings": {
 				"foreground": "#F5F"
 			}
 		},
 		{
-			"name": "Go source",
+			"name": "GO: source",
 			"scope": "source.go",
 			"settings": {
 				"foreground": "#F8F8F8"
@@ -652,23 +652,67 @@
 			}
 		},
 
+		//! JAVA
+		{
+			"name": "JAVA: data type",
+			"scope": "storage.type.primitive.java, storage.type.java, storage.type.object.array.java",
+			"settings": {
+				"foreground": "#CE8E"
+			}
+		},
+		{
+			"name": "JAVA: modifier",
+			"scope": "storage.modifier.java",
+			"settings": {
+				"foreground": "#40dbcc"
+			}
+		},
+		{
+			"name": "JAVA: methods",
+			"scope": "entity.name.function.java",
+			"settings": {
+				"foreground": "#22aeff"
+			}
+		},
+		{
+			"name": "JAVA: strings",
+			"scope": "entity.name.type.class.java, keyword.operator.assignment.java, keyword.operator.arithmetic.java, string.quoted.double.java",
+			"settings": {
+				"foreground": "#B1C1E1"
+			}
+		},
+		{
+			"name": "JAVA: keyworkds",
+			"scope": "keyword.control.java",
+			"settings": {
+				"foreground": "#FB2"
+			}
+		},
+		{
+			"name": "JAVA: variables & instances",
+			"scope": "meta.method.body.java, variable.other.definition.java, variable.parameter.java, variable.other.object.java, variable.other.object.property.java",
+			"settings": {
+				"foreground": "#fa4188"
+			}
+		},
+
 		//! JSON
 		{
-			"name": "JSON key",
+			"name": "JSON: key",
 			"scope": "support.type.property-name.json",
 			"settings": {
 				"foreground": "#f07178"
 			}
 		},
 		{
-			"name": "JSON constant",
+			"name": "JSON: constant",
 			"scope": "constant.language.json",
 			"settings": {
 				"foreground": "#89DDFF"
 			}
 		},
 		{
-			"name": "JSON Key - Level 0",
+			"name": "JSON: Key - Level 0",
 			"scope": [
 				"meta.structure.dictionary.json support.type.property-name.json"
 			],
@@ -677,7 +721,7 @@
 			}
 		},
 		{
-			"name": "JSON Key - Level 1",
+			"name": "JSON: Key - Level 1",
 			"scope": [
 				"meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
@@ -686,7 +730,7 @@
 			}
 		},
 		{
-			"name": "JSON Key - Level 2",
+			"name": "JSON: Key - Level 2",
 			"scope": [
 				"meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
@@ -695,7 +739,7 @@
 			}
 		},
 		{
-			"name": "JSON Key - Level 3",
+			"name": "JSON: Key - Level 3",
 			"scope": [
 				"meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
@@ -704,7 +748,7 @@
 			}
 		},
 		{
-			"name": "JSON Key - Level 4",
+			"name": "JSON: Key - Level 4",
 			"scope": [
 				"meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
@@ -713,7 +757,7 @@
 			}
 		},
 		{
-			"name": "JSON Key - Level 5",
+			"name": "JSON: Key - Level 5",
 			"scope": [
 				"meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
@@ -722,7 +766,7 @@
 			}
 		},
 		{
-			"name": "JSON Key - Level 6",
+			"name": "JSON: Key - Level 6",
 			"scope": [
 				"meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
@@ -731,7 +775,7 @@
 			}
 		},
 		{
-			"name": "JSON Key - Level 7",
+			"name": "JSON: Key - Level 7",
 			"scope": [
 				"meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
@@ -740,7 +784,7 @@
 			}
 		},
 		{
-			"name": "JSON Key - Level 8",
+			"name": "JSON: Key - Level 8",
 			"scope": [
 				"meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
