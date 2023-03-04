@@ -20,3 +20,6 @@ For the background, I was inspired by the [Material Theme](https://marketplace.v
 
 ### CPP
 ![CPP screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/img/CPP.png)
+
+### JAVA
+![CPP screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/img/JAVA.png)
