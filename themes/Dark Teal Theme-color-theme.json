@@ -355,7 +355,10 @@
 		},
 		{
 			"name": "General: white",
-			"scope": "constant.language, constant.numeric",
+			"scope": [
+				"constant.language",
+				"constant.numeric"
+			],
 			"settings": {
 				"foreground": "#FFFE"
 			}
@@ -383,7 +386,10 @@
 		},
 		{
 			"name": "General: blue",
-			"scope": "entity.name.function, support.function",
+			"scope": [
+				"entity.name.function",
+				"support.function"
+			],
 			"settings": {
 				"foreground": "#2AF"
 			}
@@ -404,10 +410,12 @@
 		},
 		{
 			"name": "General: dark-lavender",
-			"scope": "comment, punctuation.definition.comment",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment"
+			],
 			"settings": {
 				"foreground": "#AACC",
-				"fontStyle": ""
 			}
 		},
 
@@ -421,7 +429,11 @@
 		},
 		{
 			"name": "HTML: tag outer",
-			"scope": "meta.tag, punctuation.definition.tag, punctuation.separator.key-value.html",
+			"scope": [
+				"meta.tag",
+				"punctuation.definition.tag",
+				"punctuation.separator.key-value.html"
+			],
 			"settings": {
 				"foreground": "#567"
 			}
@@ -442,7 +454,10 @@
 		},
 		{
 			"name": "HTML: tag attribute inner",
-			"scope": "string.quoted.double.html, string.quoted.single.html",
+			"scope": [
+				"string.quoted.double.html",
+				"string.quoted.single.html"
+			],
 			"settings": {
 				"foreground": "#7DF"
 			}
@@ -451,7 +466,12 @@
 		//! CSS
 		{
 			"name": "CSS: selector",
-			"scope": "entity.other.attribute-name.id, entity.other.attribute-name.class, source.css entity.name.tag, punctuation.definition.entity.css",
+			"scope": [
+				"source.css entity.name.tag", 
+				"entity.other.attribute-name.id",
+				"entity.other.attribute-name.class", 
+				"punctuation.definition.entity.css"
+			],
 			"settings": {
 				"foreground": "#F7B"
 			}
@@ -465,7 +485,10 @@
 		},
 		{
 			"name": "CSS: value",
-			"scope": "meta.property-value.css, support.constant.property-value.css",
+			"scope": [
+				"meta.property-value.css", 
+				"support.constant.property-value.css"
+			],
 			"settings": {
 				"foreground": "#FFF"
 			}
@@ -481,7 +504,13 @@
 		},
 		{
 			"name": "JS: strings",
-			"scope": "punctuation.definition.string.begin.js, string.quoted.single.js, punctuation.definition.string.end.js, punctuation.definition.string.template.begin.js, punctuation.definition.string.template.end.js",
+			"scope": [
+				"string.quoted.single.js", 
+				"punctuation.definition.string.begin.js", 
+				"punctuation.definition.string.end.js", 
+				"punctuation.definition.string.template.begin.js", 
+				"punctuation.definition.string.template.end.js"
+			],
 			"settings": {
 				"foreground": "#C3E99D"
 			}
@@ -495,21 +524,34 @@
 		},
 		{
 			"name": "JS: property",
-			"scope": "variable.other.property.js, variable.other.object.property.js",
+			"scope": [
+				"variable.other.property.js", 
+				"variable.other.object.property.js"
+			],
 			"settings": {
 				"foreground": "#F82"
 			}
 		},
 		{
 			"name": "JS: name variable",
-			"scope": "variable.other.constant.js, variable.other.readwrite.js, variable.other.object.js",
+			"scope": [
+				"variable.other.object.js",
+				"variable.other.constant.js", 
+				"variable.other.readwrite.js" 
+			],
 			"settings": {
 				"foreground": "#F48"
 			}
 		},
 		{
 			"name": "JS: control",
-			"scope": "keyword.control.conditional.js, keyword.control.switch.js, keyword.control.loop.js, keyword.control.flow.js, storage.type.function.arrow.js",
+			"scope": [
+				"keyword.control.conditional.js", 
+				"keyword.control.switch.js", 
+				"keyword.control.loop.js", 
+				"keyword.control.flow.js", 
+				"storage.type.function.arrow.js"
+			],
 			"settings": {
 				"foreground": "#FB2"
 			}
@@ -583,14 +625,27 @@
 		//! GO:
 		{
 			"name": "GO: keyword",
-			"scope": "keyword.package.go, keyword.import.go, keyword.var.go, keyword.const.go, keyword.type.go, keyword.struct.go, keyword.interface.go, keyword.function.go, keyword.operator.address.go",
+			"scope": [
+				"keyword.package.go", 
+				"keyword.import.go", 
+				"keyword.var.go", 
+				"keyword.const.go", 
+				"keyword.type.go", 
+				"keyword.struct.go", 
+				"keyword.interface.go", 
+				"keyword.function.go", 
+				"keyword.operator.address.go"
+			],
 			"settings": {
 				"foreground": "#2FDE"
 			}
 		},
 		{
 			"name": "GO: assignment",
-			"scope": "variable.other.assignment.go, variable.other.declaration.go",
+			"scope": [
+				"variable.other.assignment.go", 
+				"variable.other.declaration.go"
+			],
 			"settings": {
 				"foreground": "#F48"
 			}
@@ -604,7 +659,13 @@
 		},
 		{
 			"name": "GO: control & sign",
-			"scope": "keyword.control.go, keyword.operator.assignment.go, constant.language.go, keyword.operator.arithmetic.go, keyword.operator.comparison.go",
+			"scope": [
+				"keyword.control.go", 
+				"keyword.operator.assignment.go", 
+				"constant.language.go", 
+				"keyword.operator.arithmetic.go", 
+				"keyword.operator.comparison.go"
+			],
 			"settings": {
 				"foreground": "#FB2"
 			}
@@ -618,7 +679,12 @@
 		},
 		{
 			"name": "GO: type",
-			"scope": "entity.name.type.go, storage.type.string.go, storage.type.error.go, storage.type.numeric.go",
+			"scope": [
+				"entity.name.type.go", 
+				"storage.type.string.go", 
+				"storage.type.error.go", 
+				"storage.type.numeric.go"
+			],
 			"settings": {
 				"foreground": "#F5F"
 			}
@@ -634,9 +700,7 @@
 		//! Python
 		{
 			"name": "Python - Self Parameter",
-			"scope": [
-				"variable.parameter.function.language.special.self.python"
-			],
+			"scope": "variable.parameter.function.language.special.self.python",
 			"settings": {
 				"foreground": "#f07178",
 				"fontStyle": "italic"
@@ -644,9 +708,7 @@
 		},
 		{
 			"name": "Python - Format Placeholder",
-			"scope": [
-				"constant.character.format.placeholder.other.python"
-			],
+			"scope": "constant.character.format.placeholder.other.python",
 			"settings": {
 				"foreground": "#F78C6C"
 			}
