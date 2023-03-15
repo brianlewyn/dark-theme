@@ -716,13 +716,14 @@
 
 		//! JAVA
 		{
-			"name": "JAVA: name class, storage type & this",
+			"name": "JAVA: Class, inheritedClass, storage type & this",
 			"scope": [
 				"entity.name.type.class.java",
 				"storage.type.java",
 				"storage.type.primitive.java", 
 				"storage.type.object.array.java",
-				"variable.language.this.java"
+				"variable.language.this.java",
+				"entity.other.inherited-class.java"
 			],
 			"settings": {
 				"foreground": "#59C2FF"
@@ -732,6 +733,7 @@
 			"name": "JAVA: storage modifier & keyword control",
 			"scope": [
 				"storage.modifier.java",
+				"storage.modifier.extends.java",
 				"keyword.control.java",
 				"keyword.control.new.java"
 			],
