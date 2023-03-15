@@ -1,8 +1,10 @@
 # Dark Tael Theme
 
-Hello! It's the second time that I make an extension for vscode. I decided to do this because although there are very good themes I never like the color of the typography, that's why I made the theme **brianlewyn-dark-theme** thought to be used with languages like html, css, js, go & cpp.
+Hello! It's the second time that I make an extension for vscode. I decided to do this because although there are very good themes I never like the color of the typography, that's why I made the theme **Dark-Teal-Theme** thought to be used with languages like html, css, js, go, cpp & java.
 
-For the background, I was inspired by the [Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme) extension & the [Bearded Theme](https://marketplace.visualstudio.com/items?itemName=BeardedBear.beardedtheme) Black & Diamond
+For the background, I was inspired by the [Material Theme](https://marketplace.visualstudio.com/items?itemName=Equinusocio.vsc-material-theme) extension & the [Bearded Theme](https://marketplace.visualstudio.com/items?itemName=BeardedBear.beardedtheme) Black & Diamond extension
+
+For the color of the typography, most of them I create from scratch. But for html, I was inspired by the [tailwindcss](https://tailwindcss.com/) framework homepage. And for java, I was inspired by the [ayu](https://marketplace.visualstudio.com/items?itemName=dempfi.ayu-vs) Ayu Dark extension
 
 ## JetBrains Mono
 
@@ -22,19 +24,19 @@ To use JetBrains Mono font in vscode, you just need to download the file from th
 ## Screenshot
 
 ### HTML
-![HTML screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/img/HTML.png)
+![HTML screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/assets/img/HTML.png)
 
 ### CSS
-![CSS screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/img/CSS.png)
+![CSS screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/assets/img/CSS.png)
 
 ### JS
-![JS screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/img/JS.png)
+![JS screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/assets/img/JS.png)
 
 ### GO
-![GO screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/img/GO.png)
+![GO screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/assets/img/GO.png)
 
 ### CPP
-![CPP screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/img/CPP.png)
+![CPP screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/assets/img/CPP.png)
 
 ### JAVA
-![CPP screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/img/JAVA.png)
+![CPP screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/assets/img/JAVA.png)****
