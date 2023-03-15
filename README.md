@@ -21,7 +21,7 @@ To use JetBrains Mono font in vscode, you just need to download the file from th
 }
 ```
 
-## Screenshot
+## Screenshots
 
 ### HTML
 ![HTML screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/assets/img/HTML.png)

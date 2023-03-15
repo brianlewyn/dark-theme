@@ -2,9 +2,9 @@
   "name": "dark-teal-theme",
   "displayName": "Dark Teal Theme",
   "description": "A Dark Teal Theme for vscode based on the Bearded Theme Black & Diamond",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "publisher": "brianlewyn",
-  "icon": "img/brianlewyn.png",
+  "icon": "assets/img/brianlewyn.png",
   "author": {"name": "Brayan Mejía Mora"},
   "repository": {
     "type": "git",
