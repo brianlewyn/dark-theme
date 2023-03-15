@@ -39,4 +39,7 @@ To use JetBrains Mono font in vscode, you just need to download the file from th
 ![CPP screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/assets/img/CPP.png)
 
 ### JAVA
-![CPP screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/assets/img/JAVA.png)****
+![CPP screenshot](https://raw.githubusercontent.com/brianlewyn/vscode_dark-teal-theme/main/assets/img/JAVA.png)
+
+## License
+This package is licensed under `Apache-2.0 license`. See the LICENSE file for details.
