@@ -716,14 +716,15 @@
 
 		//! JAVA
 		{
-			"name": "JAVA: Class, inheritedClass, storage type & this",
+			"name": "JAVA: Class, inheritedClass, storage type, this & implements",
 			"scope": [
 				"entity.name.type.class.java",
 				"storage.type.java",
 				"storage.type.primitive.java", 
 				"storage.type.object.array.java",
 				"variable.language.this.java",
-				"entity.other.inherited-class.java"
+				"entity.other.inherited-class.java",
+				"meta.definition.class.implemented.interfaces.java"
 			],
 			"settings": {
 				"foreground": "#59C2FF"
@@ -734,6 +735,7 @@
 			"scope": [
 				"storage.modifier.java",
 				"storage.modifier.extends.java",
+				"storage.modifier.implements.java",
 				"keyword.control.java",
 				"keyword.control.new.java"
 			],
@@ -751,9 +753,14 @@
 		{
 			"name": "JAVA: strings",
 			"scope": [
+				"storage.modifier.package.java",
+				"storage.modifier.import.java",
 				"keyword.operator.assignment.java", 
-				"keyword.operator.arithmetic.java", 
-				"string.quoted.double.java",
+				"keyword.operator.arithmetic.java",
+				"keyword.operator.logical.java",
+				"keyword.operator.comparison.java",
+				"keyword.operator.instanceof.java", 
+				"string.quoted.double.java"
 			],
 			"settings": {
 				"foreground": "#B1C1E1"
