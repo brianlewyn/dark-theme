@@ -760,6 +760,8 @@
 				"keyword.operator.logical.java",
 				"keyword.operator.comparison.java",
 				"keyword.operator.instanceof.java", 
+				"keyword.operator.increment-decrement.java",
+				"keyword.operator.assignment.arithmetic.java",
 				"string.quoted.double.java"
 			],
 			"settings": {
